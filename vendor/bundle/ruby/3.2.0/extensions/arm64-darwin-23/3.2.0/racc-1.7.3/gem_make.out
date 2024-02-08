@@ -1,0 +1,19 @@
+current directory: /Users/jacobnorman/Code/rails/kanban/vendor/bundle/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+/Users/jacobnorman/.rvm/rubies/ruby-3.2.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/jacobnorman/Code/rails/kanban/vendor/bundle/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240208-41109-rwlf2l sitelibdir\=./.gem.20240208-41109-rwlf2l clean
+
+current directory: /Users/jacobnorman/Code/rails/kanban/vendor/bundle/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240208-41109-rwlf2l sitelibdir\=./.gem.20240208-41109-rwlf2l
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Users/jacobnorman/Code/rails/kanban/vendor/bundle/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240208-41109-rwlf2l sitelibdir\=./.gem.20240208-41109-rwlf2l install
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 cparse.bundle ./.gem.20240208-41109-rwlf2l/racc
+
+current directory: /Users/jacobnorman/Code/rails/kanban/vendor/bundle/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240208-41109-rwlf2l sitelibdir\=./.gem.20240208-41109-rwlf2l clean

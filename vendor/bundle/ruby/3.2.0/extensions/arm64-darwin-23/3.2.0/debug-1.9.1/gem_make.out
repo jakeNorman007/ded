@@ -1,0 +1,20 @@
+current directory: /Users/jacobnorman/Code/rails/kanban/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+/Users/jacobnorman/.rvm/rubies/ruby-3.2.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/jacobnorman/Code/rails/kanban/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240208-41109-ydjzpa sitelibdir\=./.gem.20240208-41109-ydjzpa clean
+
+current directory: /Users/jacobnorman/Code/rails/kanban/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240208-41109-ydjzpa sitelibdir\=./.gem.20240208-41109-ydjzpa
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Users/jacobnorman/Code/rails/kanban/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240208-41109-ydjzpa sitelibdir\=./.gem.20240208-41109-ydjzpa install
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 debug.bundle ./.gem.20240208-41109-ydjzpa/debug
+
+current directory: /Users/jacobnorman/Code/rails/kanban/vendor/bundle/ruby/3.2.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240208-41109-ydjzpa sitelibdir\=./.gem.20240208-41109-ydjzpa clean
