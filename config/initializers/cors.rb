@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins DEV_SERVER 
+    origins "http://localhost:5173" #this needs to be the front end local host when it's created!
 
     resource "*",
       headers: :any,
