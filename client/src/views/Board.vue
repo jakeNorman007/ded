@@ -1,6 +1,5 @@
-<script steup>
+<script setup>
 </script>
 
 <template>
-F U
 </template>

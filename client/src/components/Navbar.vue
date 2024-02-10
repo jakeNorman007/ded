@@ -25,7 +25,7 @@ const onSubmit = async () => {
 
     boardNames.value.push({
         title: response.title,
-    })
+    });
 }
 </script>
 
@@ -41,17 +41,15 @@ const onSubmit = async () => {
         <div class="flex-col hidden md:flex">
             <p class="text-2xl font-semibold">Deskbink.</p>
             <!-- <input type="text" v-model="title" class="border border-black"/> -->
-            <button @click="onSubmit" class="flex gap-2 items-center bg-green-300 w-21 px-6 py-3 mt-6 rounded
-                border-t-2 border-green-400">
+            <button @click="onSubmit" class="flex gap-2 items-center bg-green-300 w-21 px-6 py-3 mt-6 rounded">
                 <p>New board</p>
                 <Plus />
             </button>
             <div class="mt-10">
                 <ul v-for="(item, index) in boardNames" :key="index">
-                    <button @click="$router.replace(`/boards/${item.id}`) class="bg-green-300 my-2 px-16 py-2 rounded border-t-2 border-green-400">
+                    <button @click="$router.replace(`/boards/${item.id}`)" class="bg-green-300 my-2 px-16 py-2">
                         {{ item.title }}, id:{{ item.id }}
                     </button>
-                    </router-link>
                 </ul>
             </div>
         </div>
