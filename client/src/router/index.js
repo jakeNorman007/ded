@@ -2,12 +2,12 @@ import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
     { 
-        path: "/boards/:id",
+        path: "/",
         name: "Board",
         component: () => import("../views/Board.vue"), 
         children: [
             {
-                path: "columns",
+                path: "/",
                 component: () => import("../views/Column.vue"),
             },
         ],

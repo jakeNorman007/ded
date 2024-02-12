@@ -3,7 +3,7 @@ import axios from "axios";
 import { ref, onMounted } from "vue";
 
 const columnItems = ref([]);
-const body = ref("");
+//const body = ref("");
 
 onMounted(async () => {
   const response = await axios
@@ -17,8 +17,8 @@ onMounted(async () => {
 </script>
 
 <template>
-    <h1>Columns?</h1>
+    <h1>Column View</h1>
     <ul v-for="(item, index) in columnItems" :key="index">
-        {{ item.title }}
+        <li class="">{{ item }}</li>
     </ul>
 </template>
