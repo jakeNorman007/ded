@@ -1,11 +1,12 @@
 <script setup>
 import Navbar from "./components/Navbar.vue";
+import Column from "./views/Column.vue";
 </script>
 
 <template>
-    <div class="h-screen md:flex md:flex-col-2">
+    <div class="h-screen">
         <Navbar />
-        <router-view />
+        <Column />
     </div>
 </template>
 

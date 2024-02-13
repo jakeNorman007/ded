@@ -4,7 +4,6 @@ const routes = [
     { 
         path: "/",
         name: "Board",
-        component: () => import("../views/Board.vue"), 
         children: [
             {
                 path: "/",
